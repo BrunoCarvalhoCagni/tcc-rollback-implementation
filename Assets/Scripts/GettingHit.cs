@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+namespace tcc{
 public class GettingHit : MonoBehaviour
 {
     Animator anim;
@@ -16,4 +16,5 @@ public class GettingHit : MonoBehaviour
             transform.position = new Vector2 (transform.position.x + 0.3f, transform.position.y);
         }
     }
+}
 }
