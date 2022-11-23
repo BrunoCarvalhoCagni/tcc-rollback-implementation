@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9a011a601f25f439d8984e66071093, type: 3}
+  m_Name: A_ATTACK
+  m_EditorClassIdentifier: 
+  actionID: 105
+  actionName: A_ATTACK
+  Type: 1
+  frameCount: 8
+  isLoop: 0
+  loopFromFrame: 0
+  motions: []
+  status: []
+  hitboxes: []
+  hurtboxes: []
+  pushboxes: []
+  movements: []
+  cancels: []
+  alwaysCancelable: 0
+  audioClip: {fileID: 0}

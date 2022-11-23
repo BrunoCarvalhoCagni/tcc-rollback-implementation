@@ -63,7 +63,7 @@ namespace tcc
             seSource1.Play();
         }
 
-        public void playFighterSE(AudioClip clip, bool isPlayerOne, float posX)
+        public void playCatSE(AudioClip clip, bool isPlayerOne, float posX)
         {
             var audioSource = seSource1;
             if (!isPlayerOne)
