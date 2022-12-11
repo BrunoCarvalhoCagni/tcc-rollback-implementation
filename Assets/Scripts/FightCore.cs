@@ -17,12 +17,12 @@ public class FightCore : MonoBehaviour
         }
 
         [SerializeField]
-        private float _battleAreaWidth = 10f;
-        public float battleAreaWidth { get { return _battleAreaWidth; } }
+        private float _fightAreaWidth = 10f;
+        public float fightAreaWidth { get { return _fightAreaWidth; } }
 
         [SerializeField]
-        private float _battleAreaMaxHeight = 2f;
-        public float battleAreaMaxHeight { get { return _battleAreaMaxHeight; } }
+        private float _fightAreaMaxHeight = 2f;
+        public float fightAreaMaxHeight { get { return _fightAreaMaxHeight; } }
 
         [SerializeField]
         private GameObject roundUI;
@@ -365,8 +365,8 @@ public class FightCore : MonoBehaviour
 
         void UpdatePushCharacterVsBackground()
         {
-            var stageMinX = battleAreaWidth * -1 / 2;
-            var stageMaxX = battleAreaWidth / 2;
+            var stageMinX = fightAreaWidth * -1 / 2;
+            var stageMaxX = fightAreaWidth / 2;
 
             _cats.ForEach((f) =>
             {
