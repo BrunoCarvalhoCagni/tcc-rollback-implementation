@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9a011a601f25f439d8984e66071093, type: 3}
+  m_Name: WALK_FOWARD
+  m_EditorClassIdentifier: 
+  actionID: 1
+  actionName: WALK_FOWARD
+  Type: 0
+  frameCount: 32
+  isLoop: 0
+  loopFromFrame: 0
+  motions:
+  - startEndFrame: {x: 0, y: 3}
+    motionID: 10
+  - startEndFrame: {x: 4, y: 7}
+    motionID: 11
+  - startEndFrame: {x: 8, y: 11}
+    motionID: 12
+  - startEndFrame: {x: 12, y: 15}
+    motionID: 13
+  - startEndFrame: {x: 16, y: 19}
+    motionID: 14
+  - startEndFrame: {x: 20, y: 23}
+    motionID: 15
+  - startEndFrame: {x: 24, y: 27}
+    motionID: 16
+  - startEndFrame: {x: 28, y: 31}
+    motionID: 17
+  status: []
+  hitboxes: []
+  hurtboxes:
+  - startEndFrame: {x: 0, y: 59}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1.2
+    useBaseRect: 1
+  pushboxes:
+  - startEndFrame: {x: 0, y: 59}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 8
+      height: 1
+    useBaseRect: 1
+  movements: []
+  cancels: []
+  alwaysCancelable: 1
+  audioClip: {fileID: 0}

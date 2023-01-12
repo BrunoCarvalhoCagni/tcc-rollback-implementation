@@ -12,4 +12,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a13313f1473e57429180e87f1df31a9, type: 3}
   m_Name: C00_MotionDataCotainer
   m_EditorClassIdentifier: 
-  motionDataList: []
+  motionDataList:
+  - motionID: 0
+    sprite: {fileID: 3891470551224643988, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 1
+    sprite: {fileID: -2265604884118969373, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 2
+    sprite: {fileID: -7885855417161457525, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 3
+    sprite: {fileID: -4531278156427240592, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 10
+    sprite: {fileID: -3665820506089318950, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 11
+    sprite: {fileID: -4390991817661769597, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 12
+    sprite: {fileID: -6992490503583141237, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 13
+    sprite: {fileID: -6975683173259558491, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 14
+    sprite: {fileID: 4825061657118510798, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 15
+    sprite: {fileID: 8957393560747026994, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 16
+    sprite: {fileID: -3477982646768488732, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 17
+    sprite: {fileID: -7266144883235409645, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 20
+    sprite: {fileID: -7266144883235409645, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 21
+    sprite: {fileID: -3477982646768488732, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 22
+    sprite: {fileID: 8957393560747026994, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 23
+    sprite: {fileID: 4825061657118510798, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 24
+    sprite: {fileID: -6975683173259558491, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 25
+    sprite: {fileID: -6992490503583141237, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 26
+    sprite: {fileID: -4390991817661769597, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 27
+    sprite: {fileID: -3665820506089318950, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 30
+    sprite: {fileID: 4908975674186356356, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 31
+    sprite: {fileID: -5058106788564051184, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 32
+    sprite: {fileID: 5634527801158614866, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 33
+    sprite: {fileID: -1981944101246271879, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 34
+    sprite: {fileID: 6514827276543201289, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 35
+    sprite: {fileID: -3979790780999116144, guid: c3e9772b85566864d92e972caab9610c, type: 3}

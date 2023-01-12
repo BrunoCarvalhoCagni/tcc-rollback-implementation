@@ -15,21 +15,21 @@ MonoBehaviour:
   startGuardHealth: 3
   forwardMoveSpeed: 2.2
   backwardMoveSpeed: 1.8
-  dashAllowFrame: 10
+  dashAllowFrame: 9
   specialAttackHoldFrame: 60
   canCancelOnWhiff: 0
   baseHurtBoxRect:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0
-    height: 0
+    width: 1.5
+    height: 1.2
   basePushBoxRect:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0
-    height: 0
+    width: 1.4
+    height: 1
   actionDataContainer: {fileID: 11400000, guid: be9e15f7bc4039b4cba0534253167e41, type: 2}
   attackDataContainer: {fileID: 11400000, guid: ba40d8fadedbc5d4ab5d7ef4a36b3571, type: 2}
   motionDataContainer: {fileID: 11400000, guid: 5083635dfff17c343ad27039ac71da21, type: 2}

@@ -242,7 +242,9 @@ namespace tcc
 
         void CalculateFightPointToScreenScale()
         {
+
             fightPointToScreenScale.x = (fightAreaBottomRightPoint.x - fightAreaTopLeftPoint.x) / fightCore.fightAreaWidth;
+            
             fightPointToScreenScale.y = (fightAreaBottomRightPoint.y - fightAreaTopLeftPoint.y) / fightCore.fightAreaMaxHeight;
 
             centerPoint = (fightAreaBottomRightPoint.x + fightAreaTopLeftPoint.x) / 2;

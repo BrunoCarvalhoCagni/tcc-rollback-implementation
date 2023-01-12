@@ -12,4 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76f84642c047136478ca714fcd00dd3e, type: 3}
   m_Name: C00_AttackDataContainer
   m_EditorClassIdentifier: 
-  attackDataList: []
+  attackDataList:
+  - attackID: 1
+    attackName: A_ATTACK
+    damageActionID: 200
+    guardActionID: 0
+    numberOfHit: 1
+    vitalHealthDamage: 0
+    guardHealthDamage: 1
+    hitStunFrame: 5
+    guardStunFrame: 5
+    guardBreakStunFrame: 0
