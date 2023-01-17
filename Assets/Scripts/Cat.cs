@@ -44,11 +44,11 @@ namespace tcc{
         BACKWARD = 2,
         DASH_FORWARD = 10,
         DASH_BACKWARD = 11,
-        N_ATTACK = 100,
-        B_ATTACK = 105,
-        N_SPECIAL = 110,
+        A_ATTACK = 4,
+        B_ATTACK = 5,
+        N_SPECIAL = 6,
         B_SPECIAL = 115,
-        DAMAGE = 200,
+        DAMAGE = 7,
         GUARD_M = 301,
         GUARD_STAND = 305,
         GUARD_CROUCH = 306,
@@ -241,7 +241,7 @@ public class Cat  {
             }
             else if (isAttack)
             {
-                if ((currentActionID == (int)CommonActionID.N_ATTACK ||
+                if ((currentActionID == (int)CommonActionID.A_ATTACK ||
                     currentActionID == (int)CommonActionID.B_ATTACK) &&
                     !isActionEnd)
                     RequestAction((int)CommonActionID.N_SPECIAL);
@@ -250,7 +250,7 @@ public class Cat  {
                     if(isBackward || isForward)
                         RequestAction((int)CommonActionID.B_ATTACK);
                     else
-                        RequestAction((int)CommonActionID.N_ATTACK);
+                        RequestAction((int)CommonActionID.A_ATTACK);
                 }
             }
 

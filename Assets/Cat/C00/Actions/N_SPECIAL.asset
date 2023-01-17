@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9a011a601f25f439d8984e66071093, type: 3}
+  m_Name: N_SPECIAL
+  m_EditorClassIdentifier: 
+  actionID: 6
+  actionName: N_SPECIAL
+  Type: 1
+  frameCount: 8
+  isLoop: 0
+  loopFromFrame: 0
+  motions:
+  - startEndFrame: {x: 0, y: 0}
+    motionID: 30
+  - startEndFrame: {x: 1, y: 2}
+    motionID: 31
+  - startEndFrame: {x: 3, y: 4}
+    motionID: 32
+  - startEndFrame: {x: 5, y: 6}
+    motionID: 33
+  - startEndFrame: {x: 7, y: 8}
+    motionID: 34
+  - startEndFrame: {x: 8, y: 8}
+    motionID: 35
+  status:
+  - startEndFrame: {x: 0, y: 3}
+    counterHit: 1
+  hitboxes:
+  - startEndFrame: {x: 0, y: 5}
+    rect:
+      serializedVersion: 2
+      x: 1.4
+      y: 0.5
+      width: 2.8
+      height: 0.4
+    attackID: 0
+    proximity: 1
+  - startEndFrame: {x: 3, y: 5}
+    rect:
+      serializedVersion: 2
+      x: 0.8
+      y: 0
+      width: 1.6
+      height: 0.9
+    attackID: 0
+    proximity: 0
+  hurtboxes:
+  - startEndFrame: {x: 0, y: 8}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    useBaseRect: 1
+  - startEndFrame: {x: 4, y: 7}
+    rect:
+      serializedVersion: 2
+      x: 0.7
+      y: 0
+      width: 1.4
+      height: 0.9
+    useBaseRect: 0
+  pushboxes:
+  - startEndFrame: {x: 0, y: 8}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    useBaseRect: 1
+  movements: []
+  cancels:
+  - startEndFrame: {x: 3, y: 5}
+    buffer: 1
+    execute: 0
+    actionID: 00000000
+  alwaysCancelable: 0
+  audioClip: {fileID: 8300000, guid: e4d4641cedd943b4b9cc0696abffa188, type: 3}

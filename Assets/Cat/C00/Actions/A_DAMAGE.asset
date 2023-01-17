@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9a011a601f25f439d8984e66071093, type: 3}
+  m_Name: A_DAMAGE
+  m_EditorClassIdentifier: 
+  actionID: 7
+  actionName: A_DAMAGE
+  Type: 2
+  frameCount: 8
+  isLoop: 0
+  loopFromFrame: 0
+  motions:
+  - startEndFrame: {x: 0, y: 0}
+    motionID: 50
+  - startEndFrame: {x: 1, y: 2}
+    motionID: 51
+  - startEndFrame: {x: 3, y: 4}
+    motionID: 52
+  - startEndFrame: {x: 5, y: 6}
+    motionID: 53
+  - startEndFrame: {x: 7, y: 7}
+    motionID: 54
+  status:
+  - startEndFrame: {x: 0, y: 3}
+    counterHit: 1
+  hitboxes: []
+  hurtboxes:
+  - startEndFrame: {x: 0, y: 7}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    useBaseRect: 1
+  pushboxes:
+  - startEndFrame: {x: 0, y: 7}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    useBaseRect: 1
+  movements:
+  - startEndFrame: {x: 0, y: 3}
+    velocity_x: -1
+  - startEndFrame: {x: 4, y: 6}
+    velocity_x: -0.5
+  - startEndFrame: {x: 7, y: 7}
+    velocity_x: 0
+  cancels:
+  - startEndFrame: {x: 3, y: 5}
+    buffer: 1
+    execute: 0
+    actionID: 00000000
+  alwaysCancelable: 0
+  audioClip: {fileID: 8300000, guid: 38ca7c1ad76f2a544938c17e7b70a5b5, type: 3}

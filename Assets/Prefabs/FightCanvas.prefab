@@ -217,9 +217,9 @@ MonoBehaviour:
   _fightCoreGameObject: {fileID: 0}
   isPlayerOne: 1
   guardImageObjects:
-  - {fileID: 4366007497465711827}
-  - {fileID: 904108098177644460}
   - {fileID: 8150208440816337773}
+  - {fileID: 904108098177644460}
+  - {fileID: 4366007497465711827}
 --- !u!114 &5009086152400589277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -391,9 +391,9 @@ MonoBehaviour:
   _fightCoreGameObject: {fileID: 0}
   isPlayerOne: 0
   guardImageObjects:
-  - {fileID: 4448424630554642669}
-  - {fileID: 7719597122616454285}
   - {fileID: 4262294818814312394}
+  - {fileID: 7719597122616454285}
+  - {fileID: 4448424630554642669}
 --- !u!114 &8376243005937154427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -484,7 +484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.79607844, g: 0.7647059, b: 0.8901961, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -492,7 +492,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: e3ab8bf8f2278b24ea8a4d17175def6c, type: 3}
-  m_Type: 1
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1482,7 +1482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.79607844, g: 0.7647059, b: 0.8901961, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1490,7 +1490,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: e3ab8bf8f2278b24ea8a4d17175def6c, type: 3}
-  m_Type: 1
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4

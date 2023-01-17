@@ -22,13 +22,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1.5
-    height: 1.2
+    width: 1
+    height: 1
   basePushBoxRect:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1.4
+    width: 0.7
     height: 1
   actionDataContainer: {fileID: 11400000, guid: be9e15f7bc4039b4cba0534253167e41, type: 2}
   attackDataContainer: {fileID: 11400000, guid: ba40d8fadedbc5d4ab5d7ef4a36b3571, type: 2}

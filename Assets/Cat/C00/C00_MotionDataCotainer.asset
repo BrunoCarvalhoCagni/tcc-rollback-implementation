@@ -65,3 +65,15 @@ MonoBehaviour:
     sprite: {fileID: 6514827276543201289, guid: c3e9772b85566864d92e972caab9610c, type: 3}
   - motionID: 35
     sprite: {fileID: -3979790780999116144, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 40
+    sprite: {fileID: 2356166402786376677, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 50
+    sprite: {fileID: -2307121820427998109, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 51
+    sprite: {fileID: -2307121820427998109, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 52
+    sprite: {fileID: -2307121820427998109, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 53
+    sprite: {fileID: 4597018457288903052, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 54
+    sprite: {fileID: 4597018457288903052, guid: c3e9772b85566864d92e972caab9610c, type: 3}
