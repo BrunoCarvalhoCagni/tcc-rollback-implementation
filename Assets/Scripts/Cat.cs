@@ -47,7 +47,7 @@ namespace tcc{
         A_ATTACK = 4,
         B_ATTACK = 5,
         N_SPECIAL = 6,
-        B_SPECIAL = 115,
+        B_SPECIAL = 8,
         DAMAGE = 7,
         GUARD_M = 301,
         GUARD_STAND = 305,

@@ -62,14 +62,6 @@ MonoBehaviour:
       width: 0
       height: 0
     useBaseRect: 1
-  - startEndFrame: {x: 4, y: 7}
-    rect:
-      serializedVersion: 2
-      x: 0.7
-      y: 0
-      width: 1.4
-      height: 0.9
-    useBaseRect: 0
   pushboxes:
   - startEndFrame: {x: 0, y: 8}
     rect:
@@ -84,6 +76,6 @@ MonoBehaviour:
   - startEndFrame: {x: 3, y: 5}
     buffer: 1
     execute: 0
-    actionID: 00000000
+    actionID: 05000000
   alwaysCancelable: 0
   audioClip: {fileID: 8300000, guid: e4d4641cedd943b4b9cc0696abffa188, type: 3}

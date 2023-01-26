@@ -77,3 +77,39 @@ MonoBehaviour:
     sprite: {fileID: 4597018457288903052, guid: c3e9772b85566864d92e972caab9610c, type: 3}
   - motionID: 54
     sprite: {fileID: 4597018457288903052, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 100
+    sprite: {fileID: 2605540264058927725, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 101
+    sprite: {fileID: -6331051517626618804, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 102
+    sprite: {fileID: 4342509131430442168, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 103
+    sprite: {fileID: 9192801382647567096, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 104
+    sprite: {fileID: 5311192199517527169, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 105
+    sprite: {fileID: 7921488483383689972, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 106
+    sprite: {fileID: -8408941903388506056, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 107
+    sprite: {fileID: -533016026097604977, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 108
+    sprite: {fileID: -9040635475758968392, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 110
+    sprite: {fileID: -6470348164353583007, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 111
+    sprite: {fileID: -5742764611342361958, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 112
+    sprite: {fileID: -5916440124549138177, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 113
+    sprite: {fileID: -3093806529271575427, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 114
+    sprite: {fileID: 195608562450386412, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 115
+    sprite: {fileID: -1489652121599824799, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 116
+    sprite: {fileID: -6005909252652879048, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 117
+    sprite: {fileID: 4341441741277145270, guid: c3e9772b85566864d92e972caab9610c, type: 3}
+  - motionID: 117
+    sprite: {fileID: 4341441741277145270, guid: c3e9772b85566864d92e972caab9610c, type: 3}

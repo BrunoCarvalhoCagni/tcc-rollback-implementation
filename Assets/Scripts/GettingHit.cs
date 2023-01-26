@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace tcc{
+namespace legacy{
 public class GettingHit : MonoBehaviour
 {
     Animator anim;

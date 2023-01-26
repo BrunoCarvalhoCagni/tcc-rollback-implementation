@@ -15,46 +15,52 @@ MonoBehaviour:
   actionID: 5
   actionName: B_ATTACK
   Type: 1
-  frameCount: 8
+  frameCount: 29
   isLoop: 0
   loopFromFrame: 0
   motions:
   - startEndFrame: {x: 0, y: 0}
-    motionID: 30
-  - startEndFrame: {x: 1, y: 2}
-    motionID: 31
-  - startEndFrame: {x: 3, y: 4}
-    motionID: 32
-  - startEndFrame: {x: 5, y: 6}
-    motionID: 33
-  - startEndFrame: {x: 7, y: 8}
-    motionID: 34
-  - startEndFrame: {x: 8, y: 8}
-    motionID: 35
+    motionID: 100
+  - startEndFrame: {x: 1, y: 4}
+    motionID: 101
+  - startEndFrame: {x: 5, y: 8}
+    motionID: 102
+  - startEndFrame: {x: 9, y: 12}
+    motionID: 103
+  - startEndFrame: {x: 13, y: 16}
+    motionID: 104
+  - startEndFrame: {x: 17, y: 20}
+    motionID: 105
+  - startEndFrame: {x: 21, y: 24}
+    motionID: 106
+  - startEndFrame: {x: 25, y: 28}
+    motionID: 107
+  - startEndFrame: {x: 29, y: 29}
+    motionID: 108
   status:
-  - startEndFrame: {x: 0, y: 3}
+  - startEndFrame: {x: 0, y: 20}
     counterHit: 1
   hitboxes:
-  - startEndFrame: {x: 0, y: 5}
+  - startEndFrame: {x: 0, y: 25}
     rect:
       serializedVersion: 2
       x: 1.4
       y: 0.5
       width: 2.8
       height: 0.4
-    attackID: 0
+    attackID: 1
     proximity: 1
-  - startEndFrame: {x: 3, y: 5}
+  - startEndFrame: {x: 8, y: 25}
     rect:
       serializedVersion: 2
       x: 0.8
       y: 0
       width: 1.6
       height: 0.9
-    attackID: 0
+    attackID: 1
     proximity: 0
   hurtboxes:
-  - startEndFrame: {x: 0, y: 8}
+  - startEndFrame: {x: 0, y: 29}
     rect:
       serializedVersion: 2
       x: 0
@@ -62,16 +68,8 @@ MonoBehaviour:
       width: 0
       height: 0
     useBaseRect: 1
-  - startEndFrame: {x: 4, y: 7}
-    rect:
-      serializedVersion: 2
-      x: 0.7
-      y: 0
-      width: 1.4
-      height: 0.9
-    useBaseRect: 0
   pushboxes:
-  - startEndFrame: {x: 0, y: 8}
+  - startEndFrame: {x: 0, y: 29}
     rect:
       serializedVersion: 2
       x: 0
@@ -80,10 +78,6 @@ MonoBehaviour:
       height: 0
     useBaseRect: 1
   movements: []
-  cancels:
-  - startEndFrame: {x: 3, y: 5}
-    buffer: 1
-    execute: 0
-    actionID: 00000000
+  cancels: []
   alwaysCancelable: 0
   audioClip: {fileID: 8300000, guid: e4d4641cedd943b4b9cc0696abffa188, type: 3}

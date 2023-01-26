@@ -23,3 +23,23 @@ MonoBehaviour:
     hitStunFrame: 5
     guardStunFrame: 5
     guardBreakStunFrame: 0
+  - attackID: 1
+    attackName: B_ATTACK
+    damageActionID: 7
+    guardActionID: 0
+    numberOfHit: 1
+    vitalHealthDamage: 0
+    guardHealthDamage: 1
+    hitStunFrame: 10
+    guardStunFrame: 10
+    guardBreakStunFrame: 0
+  - attackID: 2
+    attackName: N_SPECIAL
+    damageActionID: 7
+    guardActionID: 0
+    numberOfHit: 1
+    vitalHealthDamage: 0
+    guardHealthDamage: 1
+    hitStunFrame: 10
+    guardStunFrame: 10
+    guardBreakStunFrame: 0
